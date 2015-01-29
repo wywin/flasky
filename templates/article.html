@@ -7,7 +7,6 @@
     <p class=date> {{ article.locale_date }} </p>
     {{ article.content }}
     
-    {% include "twitter.html" %}
     {% if article.tags %}
     <p class=tags>This entry was tagged as
       {% for tag in article.tags %}
